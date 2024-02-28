@@ -1,0 +1,179 @@
+*{
+
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+
+    background-image: url("mountains-8411954.jpg");
+    background-size: cover;
+    
+}
+
+
+#header{
+    
+    padding: 10px;
+    position: fixed;
+    top: 0;
+}
+
+.navbar{
+    background-color: black;
+    margin: 10px;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+}
+
+
+.navbar li {
+
+    list-style-type: none;
+
+}
+    
+
+
+.navbar a{
+
+    color: white;
+    font-size: 22px;
+    padding: 10px;
+    text-decoration: none;
+
+
+}
+
+.navbar a:hover{
+    color: #008170;
+    background-color: #6DB9EF;
+    
+
+}   
+
+.first-pic{
+
+
+    background-image: url("river-5572289.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    height: 400px;
+    
+
+}
+
+
+.text{
+
+
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    padding-left: 60px;
+    padding-right: 60px;
+
+
+
+}
+
+.col2{
+
+
+    display: inline-block;
+    background-color: red;
+    width: calc(50% - 0.1px);
+    height: 300px;
+    vertical-align: top;
+    
+
+}
+
+
+.features_left {
+
+
+    background-image: url("japan.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.features_right{
+
+
+color: white;
+text-align: center;
+
+}
+
+.features_right h1{
+
+padding-top: 10px;
+font-size: 30px;
+
+}
+
+
+.features_right p{
+
+    text-transform: uppercase;
+    padding-top: 20px;
+
+}
+
+
+.features_right a{
+
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 220px;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: #008170;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.features_right a:hover{
+
+    background-color: #6DB9EF;
+    color: gold;
+
+}
+
+
+.frame{
+
+    text-align: center;
+    
+}
+
+
+.text-video h1{
+
+text-align: center;
+font-size: 40px;
+padding: 20px;
+background-color: #008170;
+color: white;
+
+}
+
+
+
+.text-video video {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    height: 50vh;
+    
+
+}
